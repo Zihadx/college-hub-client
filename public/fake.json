@@ -1,0 +1,308 @@
+[
+  {
+    "id": 1,
+    "college_name": "University of ABC",
+    "admission_dates": {
+      "fall": "2023-09-01",
+      "spring": "2024-01-15"
+    },
+    "events_details": {
+      "orientation": {
+        "date": "2023-08-25",
+        "location": "Student Center"
+      },
+      "career_fair": {
+        "date": "2024-02-10",
+        "location": "Gymnasium"
+      }
+    },
+    "research_history": {
+      "areas": ["Computer Science", "Biology", "Economics"],
+      "notable_projects": [
+        {
+          "title": "AI in Medicine",
+          "faculty_lead": "Dr. Smith",
+          "date": "2022-12-01"
+        },
+        {
+          "title": "Climate Change Mitigation",
+          "faculty_lead": "Dr. Johnson",
+          "date": "2023-04-15"
+        }
+      ]
+    },
+    "sports": {
+      "teams": ["Basketball", "Soccer", "Swimming"],
+      "home_ground": "University Stadium",
+      "upcoming_matches": [
+        {
+          "opponent": "University of XYZ",
+          "date": "2023-10-05",
+          "location": "University Stadium"
+        },
+        {
+          "opponent": "University of PQR",
+          "date": "2023-11-15",
+          "location": "University Pool"
+        }
+      ]
+    },
+    "college_image": "https://i.ibb.co/7VPP5fS/diverse-education-shoot.jpg",
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "college_name": "XYZ College",
+    "admission_dates": {
+      "fall": "2023-08-15",
+      "spring": "2024-01-10"
+    },
+    "events_details": {
+      "orientation": {
+        "date": "2023-08-08",
+        "location": "Auditorium"
+      },
+      "job_fair": {
+        "date": "2023-11-20",
+        "location": "Student Center"
+      }
+    },
+    "research_history": {
+      "areas": ["Chemistry", "History", "Sociology"],
+      "notable_projects": [
+        {
+          "title": "Green Energy Solutions",
+          "faculty_lead": "Dr. Williams",
+          "date": "2022-11-21"
+        },
+        {
+          "title": "Women's Suffrage Movement",
+          "faculty_lead": "Dr. Martinez",
+          "date": "2023-05-08"
+        }
+      ]
+    },
+    "sports": {
+      "teams": ["Football", "Tennis", "Volleyball"],
+      "home_ground": "College Stadium",
+      "upcoming_matches": [
+        {
+          "opponent": "University of ABC",
+          "date": "2023-09-10",
+          "location": "College Stadium"
+        },
+        {
+          "opponent": "University of LMN",
+          "date": "2023-10-22",
+          "location": "College Tennis Courts"
+        }
+      ]
+    },
+    "college_image": "https://i.ibb.co/YTQFnjR/pang-yuhao-kd5cxw-ZOK4-unsplash-1.jpg",
+    "rating": 4.5
+  },
+  {
+    "id": 3,
+    "college_name": "PQR Institute of Technology",
+    "admission_dates": {
+      "fall": "2023-09-05",
+      "spring": "2024-01-20"
+    },
+    "events_details": {
+      "orientation": {
+        "date": "2023-08-30",
+        "location": "Campus Auditorium"
+      },
+      "tech_expo": {
+        "date": "2024-03-05",
+        "location": "Engineering Building"
+      }
+    },
+    "research_history": {
+      "areas": ["Engineering", "Physics", "Mathematics"],
+      "notable_projects": [
+        {
+          "title": "Renewable Energy Innovations",
+          "faculty_lead": "Dr. Anderson",
+          "date": "2022-10-12"
+        },
+        {
+          "title": "Space Exploration Advancements",
+          "faculty_lead": "Dr. Turner",
+          "date": "2023-03-18"
+        }
+      ]
+    },
+    "sports": {
+      "teams": ["Cricket", "Badminton", "Table Tennis"],
+      "home_ground": "Campus Sports Complex",
+      "upcoming_matches": [
+        {
+          "opponent": "XYZ College",
+          "date": "2023-09-25",
+          "location": "Campus Cricket Ground"
+        },
+        {
+          "opponent": "University of DEF",
+          "date": "2023-11-10",
+          "location": "Campus Badminton Courts"
+        }
+      ]
+    },
+    "college_image": "https://i.ibb.co/TLZR1Bx/hercules-hall-surrounded-by-greenery-sunlight-daytime-munich-germany-2.jpg",
+    "rating": 4.5
+  },
+  {
+    "id": 4,
+    "college_name": "LMN University",
+    "admission_dates": {
+      "fall": "2023-09-10",
+      "spring": "2024-01-25"
+    },
+    "events_details": {
+      "orientation": {
+        "date": "2023-08-31",
+        "location": "Student Hall"
+      },
+      "cultural_fest": {
+        "date": "2024-02-28",
+        "location": "Open Air Theater"
+      }
+    },
+    "research_history": {
+      "areas": ["Psychology", "Literature", "Anthropology"],
+      "notable_projects": [
+        {
+          "title": "Mental Health Awareness",
+          "faculty_lead": "Dr. Brown",
+          "date": "2022-12-05"
+        },
+        {
+          "title": "Literary Criticism of Classic Novels",
+          "faculty_lead": "Dr. Lewis",
+          "date": "2023-06-20"
+        }
+      ]
+    },
+    "sports": {
+      "teams": ["Baseball", "Track and Field", "Hockey"],
+      "home_ground": "LMN Sports Arena",
+      "upcoming_matches": [
+        {
+          "opponent": "University of ABC",
+          "date": "2023-10-12",
+          "location": "LMN Baseball Field"
+        },
+        {
+          "opponent": "University of PQR",
+          "date": "2023-11-28",
+          "location": "LMN Hockey Rink"
+        }
+      ]
+    },
+    "college_image": "https://i.ibb.co/ThJ0Hmf/modern-amphitheater-usa-1.jpg",
+    "rating": 4.5
+  },
+  {
+    "id": 5,
+    "college_name": "DEF College of Arts",
+    "admission_dates": {
+      "fall": "2023-08-28",
+      "spring": "2024-01-05"
+    },
+    "events_details": {
+      "orientation": {
+        "date": "2023-08-21",
+        "location": "Main Theater"
+      },
+      "art_exhibition": {
+        "date": "2024-02-15",
+        "location": "Art Gallery"
+      }
+    },
+    "research_history": {
+      "areas": ["Fine Arts", "Music", "Drama"],
+      "notable_projects": [
+        {
+          "title": "Revival of Classical Painting Techniques",
+          "faculty_lead": "Prof. White",
+          "date": "2022-11-15"
+        },
+        {
+          "title": "Exploring World Music Traditions",
+          "faculty_lead": "Prof. Davis",
+          "date": "2023-04-05"
+        }
+      ]
+    },
+    "sports": {
+      "teams": ["Gymnastics", "Dance", "Fencing"],
+      "home_ground": "College Gymnasium",
+      "upcoming_matches": [
+        {
+          "opponent": "LMN University",
+          "date": "2023-09-15",
+          "location": "College Gymnasium"
+        },
+        {
+          "opponent": "University of XYZ",
+          "date": "2023-11-05",
+          "location": "College Dance Studio"
+        }
+      ]
+    },
+    "college_image": "https://i.ibb.co/4WxWLz4/low-angle-cheerful-team-students-passed-test-by-preparing-all-together.jpg",
+    "rating": 4.5
+  },
+  {
+    "id": 6,
+    "college_name": "College of Science and Innovation",
+    "admission_dates": {
+      "fall": "2023-09-15",
+      "spring": "2024-01-20"
+    },
+    "events_details": {
+      "orientation": {
+        "date": "2023-09-08",
+        "location": "Science Auditorium"
+      },
+      "science_expo": {
+        "date": "2024-03-10",
+        "location": "Science Labs"
+      }
+    },
+    "research_history": {
+      "areas": ["Physics", "Chemistry", "Environmental Science"],
+      "notable_projects": [
+        {
+          "title": "Quantum Computing Breakthrough",
+          "faculty_lead": "Dr. Miller",
+          "date": "2022-10-20"
+        },
+        {
+          "title": "Climate Change Impact on Marine Life",
+          "faculty_lead": "Dr. Green",
+          "date": "2023-05-12"
+        }
+      ]
+    },
+    "sports": {
+      "teams": ["Rugby", "Athletics", "Cycling"],
+      "home_ground": "CSI Sports Complex",
+      "upcoming_matches": [
+        {
+          "opponent": "University of PQR",
+          "date": "2023-09-30",
+          "location": "CSI Rugby Field"
+        },
+        {
+          "opponent": "University of DEF",
+          "date": "2023-11-20",
+          "location": "CSI Athletics Track"
+        }
+      ]
+    },
+    "college_image": "https://i.ibb.co/pjrgCJp/pexels-thirdman-8926556.jpg",
+    "rating": 4.5
+  }
+]

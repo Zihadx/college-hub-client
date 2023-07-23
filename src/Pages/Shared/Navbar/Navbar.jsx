@@ -27,7 +27,7 @@ const Navbar = () => {
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="colleges">Colleges</Link>
+        <Link to="allCollege">Colleges</Link>
       </li>
       <li>
         <Link to="admission">Admission</Link>
@@ -41,7 +41,7 @@ const Navbar = () => {
     <>
       <div
         className={`navbar fixed top-0 z-10 bg-base-100 max-w-screen-xl mx-auto w-full h-20 uppercase ${
-          isScrolled ? "shadow-xl" : ""
+          isScrolled ? "shadow-xl h-12" : ""
         }`}
       >
         <div className="navbar-start">
@@ -71,7 +71,7 @@ const Navbar = () => {
           </div>
           <li to="/" className="flex items-center gap-2">
             <h3 className="text-2xl font-bold uppercase">
-              College<span className="">Hub</span>
+              College<span className="text-[#f16736]">Hub</span>
             </h3>
           </li>
         </div>
@@ -82,7 +82,7 @@ const Navbar = () => {
         </div>
 
         <div className="navbar-end flex items-center gap-4">
-          <button className="btn btn-md btn-accent">Login</button>
+          <button className="btn btn-md btn-ghost text-white hover:text-black hover:bg-accent bg-[#f16736]">Login</button>
         </div>
       </div>
     </>
