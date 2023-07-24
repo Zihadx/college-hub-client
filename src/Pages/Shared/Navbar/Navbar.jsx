@@ -1,7 +1,16 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../../Providers/AuthProviders";
 
 const Navbar = () => {
+  const { user, logOut } = useContext(AuthContext);
+
+  const handleLogOut = () => {
+    logOut()
+      .then(() => {})
+      .catch((error) => console.log(error));
+  };
+
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -81,12 +90,35 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className="navbar-end flex items-center gap-4">
+        {/* <div className="navbar-end flex items-center gap-4">
           <Link to='login'>
             <button className="btn btn-md btn-ghost text-white hover:text-black hover:bg-accent bg-[#f16736]">
               Login
             </button>
           </Link>
+        </div> */}
+
+        <div className="navbar-end">
+          {user?.email ? (
+            <button
+              onClick={handleLogOut}
+              className="btn btn-md btn-ghost text-white hover:text-black hover:bg-accent bg-[#f16736]"
+            >
+              Log Out
+            </button>
+          ) : (
+            <Link
+              className="btn btn-md btn-ghost text-white hover:text-black hover:bg-accent bg-[#f16736]"
+              to="/login"
+            >
+              Login
+            </Link>
+          )}
+          {user && (
+            <div>
+              <h3 className="font-bold text-[#f16736] ms-4">{user.displayName}</h3>
+            </div>
+          )}
         </div>
       </div>
     </>

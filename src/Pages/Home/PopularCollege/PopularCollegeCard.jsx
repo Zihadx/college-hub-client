@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 /* eslint-disable react/prop-types */
 const PopularCollegeCard = ({ college }) => {
-  const { id, college_name, college_image, admission_dates } = college;
+  const { _id, college_name, college_image, admission_dates } = college;
   return (
     <div className="card card-compact bg-base-100 shadow-xl rounded">
       <figure className="hover:transform hover:scale-y-110 transition-all duration-300">
@@ -15,7 +15,7 @@ const PopularCollegeCard = ({ college }) => {
           <p>Admission End: {admission_dates.spring}</p>
         </div>
         <div className="card-actions justify-end">
-        <Link to={`/collegeDetails/${id}`}>
+        <Link to={`/collegeDetails/${_id}`}>
           <button className="btn btn-md btn-ghost text-white hover:text-black hover:bg-accent bg-[#f16736]">
             Details
           </button>

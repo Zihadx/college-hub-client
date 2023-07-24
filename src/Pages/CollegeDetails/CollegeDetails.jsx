@@ -8,7 +8,7 @@ const CollegeDetails = () => {
   const [details, setDetails] = useState([]);
   useEffect(() => {
     if (collegeDetails) {
-      const data = collegeDetails.find((college) => college.id == id);
+      const data = collegeDetails.find((college) => college._id == id);
       setDetails(data);
       console.log(data);
     }

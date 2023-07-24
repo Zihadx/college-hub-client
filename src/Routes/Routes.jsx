@@ -33,7 +33,7 @@ export const router = createBrowserRouter([
         {
           path: '/collegeDetails/:id',
           element: <CollegeDetails></CollegeDetails>,
-          loader: ()=> fetch('/fake.json')
+          loader: ()=> fetch('https://college-hub-server-five.vercel.app/colleges')
           
         }
     ]

@@ -4,7 +4,7 @@ import PopularCollegeCard from "./PopularCollegeCard";
 const PopularCollege = () => {
   const [colleges, setColleges] = useState([]);
   useEffect(() => {
-    fetch("fake.json")
+    fetch("https://college-hub-server-five.vercel.app/colleges")
       .then((res) => res.json())
       .then((data) => setColleges(data));
   }, []);
