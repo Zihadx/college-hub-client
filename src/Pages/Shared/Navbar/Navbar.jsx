@@ -82,7 +82,11 @@ const Navbar = () => {
         </div>
 
         <div className="navbar-end flex items-center gap-4">
-          <button className="btn btn-md btn-ghost text-white hover:text-black hover:bg-accent bg-[#f16736]">Login</button>
+          <Link to='login'>
+            <button className="btn btn-md btn-ghost text-white hover:text-black hover:bg-accent bg-[#f16736]">
+              Login
+            </button>
+          </Link>
         </div>
       </div>
     </>
